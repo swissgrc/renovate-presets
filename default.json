@@ -1,0 +1,11 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Default Renovate configuration for all repositories in this organization",
+    "extends": [
+      "config:base",
+      "helpers:pinGitHubActionDigests",
+      ":semanticCommitsDisabled"
+    ],
+    "labels": ["dependencies"]
+  }
+  
