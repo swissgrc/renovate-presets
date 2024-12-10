@@ -2,7 +2,7 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "description": "Default Renovate configuration for all repositories in this organization",
     "extends": [
-      "config:base",
+      "config:recommended",
       "helpers:pinGitHubActionDigests",
       ":semanticCommitsDisabled"
     ],
