@@ -8,7 +8,7 @@
       {
         "fileMatch": ["(^|/)Dockerfile$", "(^|/)Dockerfile\\.[^/]*$"],
         "matchStrings": [
-          "#\\srenovate:\\sdatasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?( extractVersion=(?<extractVersion>.*?))?\\s(ENV|ARG) .*?_VERSION(\\s+|=)(?<currentValue>.*)\\s"
+          "#\\srenovate:\\sdatasource=(?<datasource>.*?) depName=(?<depName>.*?)( registryUrl=(?<registryUrl>\\S+))?( versioning=(?<versioning>.*?))?( extractVersion=(?<extractVersion>.*?))?\\s(ENV|ARG) .*?_VERSION(\\s+|=)(?<currentValue>.*)\\s"
         ]
       }
     ]
